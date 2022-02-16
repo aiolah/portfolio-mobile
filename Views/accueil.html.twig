@@ -13,24 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=The+Nautigal&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Accueil - Aïolah Vaïti</title>
-    <script src="js/meta_desc.js"></script>
-    <script>
-
-        // On redirige vers m.aiolah-vaiti.fr si on est sur un portable
-        {# if(window.innerWidth <= 480)
-        {
-            window.location.href = "https://m.aiolah-vaiti.fr";
-        } #}
-
-    </script>
+    <title></title>
+    <script src="js/head.js"></script>
 </head>
 <header>
     <h1>IMAGE</h1>
 </header>
 <nav>
     <ul>
-        <li><a href="https://aiolah-vaiti.fr" id="accueil">Accueil</a></li>
+        <li><a href="https://m.aiolah-vaiti.fr" id="accueil">Accueil</a></li>
         <li><a href="?page=realisations" id="realisations">Mes réalisations</a></li>
         <li><a href="?page=parcours" id="parcours">Mon parcours</a></li>
         <li><a href="?page=mission-de-service" id="mission-de-service">Ma mission de service</a></li>
@@ -74,7 +65,7 @@
                 </div>
                 <p class="legend">
                     Je m'appelle <strong>Aïolah Vaïti</strong>, j'ai <strong>21 ans</strong> et je sers actuellement une <a href="?page=mission-de-service" class="lien">mission de service</a>.<br>
-                    J'ai créé ce portofolio afin de mettre en ligne mes diverses <a href="?page=realisations" class="lien">réalisations</a> réalisées lors de mes études.<br>
+                    J'ai créé ce portofolio afin de mettre en ligne mes diverses <a href="?page=realisations" class="lien">réalisations</a> effectuées lors de mes études.<br>
                     J'ai également consacré une page à mon <a href="?page=parcours" class="lien">parcours</a> scolaire, universitaire et humanitaire.
                 </p>
                 <p class="legend">Bonne visite 😄 !</p>
@@ -100,7 +91,6 @@
         <script src="js/mission.js"></script>
     {% endif %}
     <script>
-
         // Si on est sur un portable, on crée la div d'id container, le aside et le div profil-container deviennent ses enfants puis cette div container devient enfant de main
         {# if(window.innerWidth <= 480)
         {
