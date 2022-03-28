@@ -118,7 +118,14 @@ aside {
     margin: 0 50px;
 }
 
-/* ACCUEIL */
+/* PAGE ACCUEIL.HTML */
+
+#gif {
+    display: flex;
+    justify-content: center;
+    height: 27vh;
+    margin: 5% 0;
+}
 
 .legend {
     text-align: center;
